@@ -1,0 +1,13 @@
+.user-header-navbar .user-nav a,.user-header-navbar .user-nav {
+    position: relative;
+    margin-left: 25px;
+    padding: 35px 0;
+    font-size: 15px;
+    color: var(--light) ;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+    transition: .5s;
+    text-decoration: none;
+}
+
