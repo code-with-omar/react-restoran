@@ -1,9 +1,10 @@
+import Service from "../Shared/Service/Service";
 
 
 const Main = () => {
     return (
         <div>
-            hello main
+           <Service></Service>
         </div>
     );
 };
