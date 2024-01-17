@@ -1,0 +1,30 @@
+.service-container {}
+
+.service-wrap {}
+
+.service-item {
+    background-color: white;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.icon-img {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+ 
+}
+
+.service-title {
+    font-size: 1.5rem;
+
+}
+
+.service-details {
+
+}
+.service-item:hover {
+    background: #FEA116;
+    color: white !important;;
+}

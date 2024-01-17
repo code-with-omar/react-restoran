@@ -3,7 +3,11 @@
     --light: #F1F8FF;
     --dark: #0F172B;
 }
+body{
+    background: #F1F8FF;
+}
 /* button  */
+
 .button,.button:hover{
     background-color: #FEA116;
     border-color: #FEA116;
