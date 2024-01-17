@@ -1,10 +1,12 @@
+import About from "../Shared/About/About";
 import Service from "../Shared/Service/Service";
 
 
 const Main = () => {
     return (
-        <div>
-           <Service></Service>
+        <div className="">
+            <Service></Service>
+            <About></About>
         </div>
     );
 };
