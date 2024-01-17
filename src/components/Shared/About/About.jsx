@@ -1,19 +1,21 @@
 import { Col, Container, Row } from "react-bootstrap";
-import aboutOne from "./../../../assets/about-1.jpg"
-import aboutTwo from "./../../../assets/about-2.jpg"
-import aboutThree from "./../../../assets/about-3.jpg"
-import aboutFour from "./../../../assets/about-4.jpg"
 import "./About.css"
 import AboutLeft from "./AboutLeft/AboutLeft.jsx";
+import AboutRight from "./AboutRight/AboutRight.jsx";
 
 const About = () => {
-   
+
     return (
         <section className="container-xxl py-5 about-wrap">
-            hello
+
             <Container>
-                <Row className="g-5 service-container">
-                    <AboutLeft></AboutLeft>
+                <Row className="g-5 about-container align-items-center">
+                    <Col lg={6}>
+                        <AboutLeft></AboutLeft>
+                    </Col>
+                    <Col lg={6}>
+                        <AboutRight></AboutRight>
+                    </Col>
                 </Row>
             </Container>
         </section>
