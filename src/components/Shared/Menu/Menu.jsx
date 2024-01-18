@@ -41,7 +41,7 @@ const Menu = () => {
         setActiveTab(tabKey);
     };
     return (
-        <section className="container-xxl py-5">
+        <section className="container-xxl py-5" data-aos="fade-up"data-aos-delay="150">
             <Container className="text-center">
                 <div className="text-center">
                     <h5 className="text-center">Food Menu</h5>
