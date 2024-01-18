@@ -3,7 +3,7 @@ import "./AboutRight.css"
 import { MdOutlineRestaurant } from "react-icons/md";
 const AboutRight = () => {
     return (
-        <div className="about-right-content " data-aos="fade-up">
+        <div className="about-right-content " data-aos="fade-up"  data-aos-delay="100">
             <h5 className="about-right-title mb-4">About Us</h5>
             <h1 className="mb-4">Welcome to<MdOutlineRestaurant className="about-right-logo"></MdOutlineRestaurant>Restoran</h1>
             <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>

@@ -1,4 +1,5 @@
 import About from "../Shared/About/About";
+import Menu from "../Shared/Menu/Menu";
 import Service from "../Shared/Service/Service";
 
 
@@ -7,6 +8,7 @@ const Main = () => {
         <div className="">
             <Service></Service>
             <About></About>
+            <Menu></Menu>
         </div>
     );
 };

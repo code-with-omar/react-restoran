@@ -1,0 +1,15 @@
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid var(--primary);
+    background: #F1F8FF !important;
+}
+.menu-logo{
+    color: #FEA116;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.text-body{
+    color: #666565;
+}
+.menu-items-title >h6{
+    color: black;
+}
