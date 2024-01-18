@@ -1,0 +1,10 @@
+.menu-text-details{
+    font-style: italic;
+    color: rgb(46, 43, 43);
+    margin-top: 20px;
+}
+.price{
+    color: #FEA116 !important;
+    font-size: 1.25rem;
+    font-weight: 800;
+}

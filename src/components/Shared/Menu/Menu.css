@@ -13,3 +13,7 @@
 .menu-items-title >h6{
     color: black;
 }
+.menu-items-wrap{
+    background: #F1F8FF;
+    border: none;
+}
